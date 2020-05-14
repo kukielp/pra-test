@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "pre-test",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build",
+    "serve": "sirv build --cors --single",
+    "dev": "preact watch"
+  },
+  "dependencies": {
+    "preact": "^10.3.2",
+    "preact-render-to-string": "^5.1.4",
+    "preact-router": "^3.2.1"
+  }
+}
